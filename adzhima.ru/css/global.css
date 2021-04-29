@@ -1,0 +1,143 @@
+body {
+    margin-top: 150px;
+    background-size: cover;
+    font-family: sans-serif;
+    background-color: rgb(102, 204, 102); 
+ }
+
+.main {
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+.title {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.header {
+    background-color: darkgreen;
+}
+/*
+.contacts {
+    padding: 0 31%;
+    margin-top: 20px;
+}
+
+.contacts li {
+    margin-top: 15px;
+}
+
+pre.contacts { 
+    font-size: 20px;
+}
+
+.contacts li a {
+    font-size: 20px;
+}
+*/
+
+.left {
+    display: flex; 
+    justify-self: left;
+    padding: 20px;
+}
+
+.betInput {
+    display: flex;
+    width: 70px;
+    height: 40px;
+    background-color: rgb(177, 221, 206);
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    border: 3px solid  rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+}
+
+.long_td {
+    width: 350px;
+}
+
+table {
+    display: flex;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.nameOfTable {
+    font-size: 50px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;  
+    align-self: flex-end;
+    align-items: flex-end;
+}
+
+
+button {
+    margin: 30px;
+    border-radius: 5px; 
+    background-color: rgb(177, 221, 206);
+
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 4px solid black;
+}
+
+.buttonBet {
+    margin: 30px;
+    border-radius: 5px;
+    background-color: rgb(177, 221, 206);
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    border: 4px solid black;
+}
+
+input {
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+select {
+    font-size: 30px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 4px solid black;
+    background-color: rgb(177, 221, 206);
+    width: 150px;
+    height: 70px;
+}
+
+#mainStatistics {
+    color:black;
+}
+
+.twoObjectsInLine {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 10px;
+}
